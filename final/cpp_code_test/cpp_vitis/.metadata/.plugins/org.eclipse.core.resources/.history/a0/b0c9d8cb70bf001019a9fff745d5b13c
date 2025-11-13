@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="utt_test" location="F:/ECE385-group-work/final/cpp_code_test/cpp_vitis/utt_test" platform="F:/ECE385-group-work/final/cpp_code_test/cpp_vitis/cpp_test/export/cpp_test/cpp_test.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="utt_test_system" sysConfig="cpp_test" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" language="CPP" mssSignature="f9c59c7a98c1cc552a71e67e4e0c472b">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1390316618">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1385054156" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>
