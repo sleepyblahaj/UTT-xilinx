@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file F:\ECE385-group-work\final\cpp_code_test\cpp_code_test.runs\synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Permission denied
