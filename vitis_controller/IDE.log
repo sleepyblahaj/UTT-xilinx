@@ -1,0 +1,14 @@
+21:48:46 DEBUG : Logs will be stored at 'F:/UTT-xilinx/vitis_controller/IDE.log'.
+21:48:48 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\UTT-xilinx\vitis_controller\temp_xsdb_launch_script.tcl
+21:48:48 INFO  : Registering command handlers for Vitis TCF services
+21:48:49 INFO  : Platform repository initialization has completed.
+21:48:50 INFO  : XSCT server has started successfully.
+21:48:50 INFO  : Successfully done setting XSCT server connection channel  
+21:48:50 INFO  : plnx-install-location is set to ''
+21:48:54 INFO  : Successfully done setting workspace for the tool. 
+21:48:54 INFO  : Successfully done query RDI_DATADIR 
+21:52:43 INFO  : Result from executing command 'getProjects': cpp_test
+21:52:43 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|C:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+21:52:44 WARN  : An unexpected exception occurred in the module 'platform project logging'
+21:52:44 INFO  : Platform 'cpp_test' is added to custom repositories.
+21:52:46 INFO  : Platform 'cpp_test' is added to custom repositories.
