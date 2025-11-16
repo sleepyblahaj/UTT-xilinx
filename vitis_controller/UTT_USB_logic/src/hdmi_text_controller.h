@@ -75,8 +75,7 @@
  */
  
 struct HDMI_TEXT_STRUCT {
-	uint8_t  CELLS [ROWS*COLUMNS];
-	uint8_t  CELL_STATUS[(ROW*COLUMNS)/9];
+	uint32_t CELLS[36];
 	uint32_t GAME_STATUS;
 	uint32_t FRAME_COUNT;
 	uint32_t DRAWX;

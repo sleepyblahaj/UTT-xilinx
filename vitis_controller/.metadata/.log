@@ -1043,3 +1043,1897 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-11-13 21:52:49.347
 !MESSAGE Indexed 'UTT_USB_logic_system' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2025-11-14 12:53:25.359 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-11-14 12:53:43.457
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-11-14 12:53:47.823
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-11-14 12:53:47.823
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-11-14 12:53:47.823
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 12:53:47.947
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 12:53:47.947
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-23
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 12:53:47.961
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 12:53:50.638
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 12:53:50.639
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-23
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 12:53:50.639
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 12:53:50.639
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 12:53:50.654
+!MESSAGE XSCT Command: [setws F:/UTT-xilinx/vitis_controller], Thread: Thread-23
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 12:53:50.669
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2022.2/data]. Thread: Worker-5: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 12:53:50.670
+!MESSAGE XSCT command with result: [setws F:/UTT-xilinx/vitis_controller], Result: [null, ]. Thread: Thread-23
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 13:11:06.627
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 13:11:06.719
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 13:11:06.722
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 13:11:06.725
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 13:11:06.725
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 13:11:06.727
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-14 13:11:06.727
+!MESSAGE Generating MD5 hash for file: F:\UTT-xilinx\vitis_controller\cpp_test\export\cpp_test\sw\cpp_test\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 13:11:06.729
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 13:11:06.730
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2025-11-14 13:11:06.969
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 13:11:07.347
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 13:11:07.353
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Result: [null, {"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 16:07:06.759
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Thread: Worker-28: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 16:07:06.766
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-28: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 16:07:06.766
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-28: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 16:07:06.768
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-28: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-14 16:07:06.768
+!MESSAGE Generating MD5 hash for file: F:\UTT-xilinx\vitis_controller\cpp_test\export\cpp_test\sw\cpp_test\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 16:07:06.769
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-28: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-14 16:07:06.770
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-28: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2025-11-14 16:07:07.409
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:45:19.737
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:45:19.769
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:45:19.769
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:45:19.774
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:45:19.774
+!MESSAGE Generating MD5 hash for file: F:\UTT-xilinx\vitis_controller\cpp_test\export\cpp_test\sw\cpp_test\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:45:19.775
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:45:19.777
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2025-11-15 11:45:20.763
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:46:57.954
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:46:57.956
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:46:57.957
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:46:57.958
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:46:57.958
+!MESSAGE Generating MD5 hash for file: F:\UTT-xilinx\vitis_controller\cpp_test\export\cpp_test\sw\cpp_test\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:46:57.959
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:46:57.965
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-41: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2025-11-15 11:46:58.137
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:47:11.919
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:47:11.921
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:47:11.921
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:47:11.923
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:47:11.923
+!MESSAGE Generating MD5 hash for file: F:\UTT-xilinx\vitis_controller\cpp_test\export\cpp_test\sw\cpp_test\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:47:11.923
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:47:11.924
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:47:13.093
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:06.687
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Thread: Worker-34: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:06.689
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-34: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:06.689
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-34: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:06.693
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-34: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:48:06.693
+!MESSAGE Generating MD5 hash for file: F:\UTT-xilinx\vitis_controller\cpp_test\export\cpp_test\sw\cpp_test\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:06.694
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-34: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:06.695
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-34: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:48:07.545
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:50.322
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:50.325
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Sat Nov  8 19:04:15 2025",
+"vivado_version": "2022.2",
+"part": "xc7s50csga324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:50.448
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0 C_DEBUG_ENABLED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:50.451
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:50.451
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0 C_DEBUG_PROFILE_SIZE], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:50.453
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0 C_DEBUG_PROFILE_SIZE], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:50.453
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0 C_FREQ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:50.467
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:51.221
+!MESSAGE XSCT Command: [::hsi::utils::openhw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:51.222
+!MESSAGE XSCT command with result: [::hsi::utils::openhw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:51.222
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:51.234
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Result: [null, {"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:51.236
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:51.237
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Result: [null, {"device": "7s50",
+"family": "spartan7",
+"timestamp": "Sat Nov  8 19:04:15 2025",
+"vivado_version": "2022.2",
+"part": "xc7s50csga324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.543
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.547
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Result: [null, {}]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.547
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.556
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0], Result: [null, {"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033280,
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033284,
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033292,
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033288,
+},
+},
+"microblaze_0_axi_intc": {"ISR": {"description": "Interrupt Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Status Register.
+For each bit up to number of periperhal interrupts:
+  R - Reads active interrupt signal.
+  W - No effect after MER HIE bit has been set, otherwise writes active interrupt signal.
+For remaining bits defined by number of software interrupts:
+  R - Reads software interrupt value.
+  W - Writes software interrupt value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616192,
+},
+"IPR": {"description": "Interrupt Pending Register",
+"address_offset": "0x4",
+"access": "read-only",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Pending Register.
+For each bit:
+  R - Reads logical AND of bits in ISR and IER.
+  W - No effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616196,
+},
+"IER": {"description": "Interrupt Enable Register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Enable Register.
+For each bit:
+  R - Reads interrupt enable value.
+  W - Writes interrupt enable value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616200,
+},
+"IAR": {"description": "Interrupt Acknowledge Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Acknowledge Register.
+For each bit:
+  W - Acknowledge interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616204,
+},
+"SIE": {"description": "Set Interrupt Enables",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Set Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 enables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616208,
+},
+"CIE": {"description": "Clear Interrupt Enables",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Clear Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 disables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616212,
+},
+"IVR": {"description": "Interrupt Vector Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"IVN": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Vector Number.
+  R - Reads ordinal of highest priority, enabled, active interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616216,
+},
+"MER": {"description": "Master Enable Register",
+"address_offset": "0x1C",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"ME": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master IRQ Enable.
+  0 - All interrupts disabled.
+  1 - All interrupts can be enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"HIE": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Hardware Interrupt Enable.
+  0 - HW interrupts disabled.
+  1 - HW interrupts enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616220,
+},
+"IMR": {"description": "Interrupt Mode Register",
+"address_offset": "0x20",
+"access": "read-write",
+"size": "1",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Interrupt Mode Register.
+For each bit:
+  R - Reads interrupt mode.
+  W - Sets interrupt mode, where 0 is normal mode and 1 is fast mode.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616224,
+},
+"IVAR[0]": {"description": "Interrupt Vector Address Register 0",
+"address_offset": "0x100",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 0 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092616448,
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.557
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.564
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0], Result: [null, {"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_axi_intc_s_axi": {"name": "microblaze_0_axi_intc",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0001FFFF",
+"size": "131072",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.564
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.567
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.568
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa mdm_1], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.569
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa mdm_1], Result: [null, {}]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.569
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa mdm_1], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.587
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.588
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa mdm_1], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.589
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa mdm_1], Result: [null, microblaze_0]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.589
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.590
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.590
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.603
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:52.605
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY org.eclipse.tcf 4 0 2025-11-15 11:48:54.744
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:54.791
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:54.793
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.020
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  RealDigital Boo 887100000020A]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.021
+!MESSAGE XSCT Command: [version -server], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.023
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.023
+!MESSAGE XSCT Command: [version], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.028
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.031
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.033
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  RealDigital Boo 887100000020A]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.034
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.041
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.043
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.046
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  RealDigital Boo 887100000020A]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.046
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.054
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.054
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.056
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  RealDigital Boo 887100000020A]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.057
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.064
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.064
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.066
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  RealDigital Boo 887100000020A]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.067
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.073
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.074
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.076
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  RealDigital Boo 887100000020A]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.077
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.083
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.083
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "RealDigital Boo 887100000020A" && level == 0}], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.090
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "RealDigital Boo 887100000020A" && level == 0}], Result: [null, ]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.090
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.107
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.108
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.110
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.128
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.131
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.132
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.140
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.142
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.142
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.142
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.152
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.152
+!MESSAGE XSCT Command: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.153
+!MESSAGE XSCT command with result: [proc fetch_device_jtag_ctx { node_id } {
+foreach t [jtag ta -ta] {
+if {[dict get $t node_id] == $node_id} {
+return [dict get $t target_ctx]
+}
+}
+error cannot find a jtag device with node id $node_id}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.153
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.168
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.168
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.179
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.179
+!MESSAGE XSCT Command: [fetch_device_jtag_ctx 2], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.180
+!MESSAGE XSCT command with result: [fetch_device_jtag_ctx 2], Result: [null, jsn1-0362f093-0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.183
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.209
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:55.210
+!MESSAGE XSCT Command: [fpga -file F:/UTT-xilinx/vitis_controller/UTT_USB_logic/_ide/bitstream/cpp_test.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:56.475
+!MESSAGE XSCT command with result: [fpga -file F:/UTT-xilinx/vitis_controller/UTT_USB_logic/_ide/bitstream/cpp_test.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:56.494
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:56.534
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:56.534
+!MESSAGE XSCT Command: [loadhw -hw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa -regs], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:56.543
+!MESSAGE XSCT command with result: [loadhw -hw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa -regs], Result: [null, mb_usb_hdmi_top_0]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:56.543
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:56.544
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:56.545
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:56.552
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:56.552
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:56.554
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:56.554
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:59.556
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:59.556
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:59.577
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:48:59.578
+!MESSAGE XSCT Command: [dow F:/UTT-xilinx/vitis_controller/UTT_USB_logic/Debug/UTT_USB_logic.elf], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:00.010
+!MESSAGE XSCT command with result: [dow F:/UTT-xilinx/vitis_controller/UTT_USB_logic/Debug/UTT_USB_logic.elf], Result: [null, ]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:00.103
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:00.120
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:00.121
+!MESSAGE XSCT Command: [con], Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:00.125
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-43: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:49:00.127
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:32.052
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:32.053
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:32.054
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:32.055
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:49:32.055
+!MESSAGE Generating MD5 hash for file: F:\UTT-xilinx\vitis_controller\cpp_test\export\cpp_test\sw\cpp_test\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:32.056
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:32.056
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-40: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:49:32.882
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:35.814
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-610
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:35.816
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-610
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:36.853
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:36.856
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:36.856
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:36.861
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A (closed)]. Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:36.861
+!MESSAGE XSCT Command: [version -server], Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:36.862
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:36.862
+!MESSAGE XSCT Command: [version], Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:36.862
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:36.863
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:36.865
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A (closed)]. Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:36.865
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A (closed)" && level==1}], Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:39.873
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A (closed)" && level==1}], Result: [null, ]. Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:42.877
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A (closed)" && level==1}], Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:49:45.889
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A (closed)" && level==1}], Result: [null, ]. Thread: Worker-38: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.344
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.345
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.350
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.353
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.353
+!MESSAGE XSCT Command: [version -server], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.354
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.354
+!MESSAGE XSCT Command: [version], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.354
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.355
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.357
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.357
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.364
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.364
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.367
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.367
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.374
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.374
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.376
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.377
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.384
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.384
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.386
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.387
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.394
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.394
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.397
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.397
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.404
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.404
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "RealDigital Boo 887100000020A" && level == 0}], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.411
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "RealDigital Boo 887100000020A" && level == 0}], Result: [null, ]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.412
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.413
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.428
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.432
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.432
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.439
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.440
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.452
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:40.453
+!MESSAGE XSCT Command: [fpga -file F:/UTT-xilinx/vitis_controller/UTT_USB_logic/_ide/bitstream/cpp_test.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:41.710
+!MESSAGE XSCT command with result: [fpga -file F:/UTT-xilinx/vitis_controller/UTT_USB_logic/_ide/bitstream/cpp_test.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:41.730
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:41.739
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:41.739
+!MESSAGE XSCT Command: [loadhw -hw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa -regs], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:41.742
+!MESSAGE XSCT command with result: [loadhw -hw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa -regs], Result: [null, mb_usb_hdmi_top_0]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:41.742
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:41.743
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:41.743
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:41.751
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:41.751
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:41.753
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:41.753
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:44.763
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:44.764
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:44.772
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:44.772
+!MESSAGE XSCT Command: [dow F:/UTT-xilinx/vitis_controller/UTT_USB_logic/Debug/UTT_USB_logic.elf], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:45.202
+!MESSAGE XSCT command with result: [dow F:/UTT-xilinx/vitis_controller/UTT_USB_logic/Debug/UTT_USB_logic.elf], Result: [null, ]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:45.260
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:45.275
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:45.276
+!MESSAGE XSCT Command: [con], Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:53:45.282
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-39: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:53:45.283
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:25.666
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:25.668
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:25.668
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:25.670
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:55:25.670
+!MESSAGE Generating MD5 hash for file: F:\UTT-xilinx\vitis_controller\cpp_test\export\cpp_test\sw\cpp_test\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:25.670
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:25.671
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-39: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:55:26.470
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '4'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:44.643
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-686
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:44.662
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-686
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.669
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.672
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.672
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.677
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.677
+!MESSAGE XSCT Command: [version -server], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.678
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.678
+!MESSAGE XSCT Command: [version], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.678
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.679
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.681
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.681
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.689
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.690
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.692
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.693
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.700
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.700
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.703
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.703
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.709
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.710
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.712
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.712
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.719
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.719
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.722
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.722
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.729
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.729
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "RealDigital Boo 887100000020A" && level == 0}], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.736
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "RealDigital Boo 887100000020A" && level == 0}], Result: [null, ]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.736
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.737
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.755
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.758
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.758
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.765
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.765
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.778
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:45.779
+!MESSAGE XSCT Command: [fpga -file F:/UTT-xilinx/vitis_controller/UTT_USB_logic/_ide/bitstream/cpp_test.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:47.037
+!MESSAGE XSCT command with result: [fpga -file F:/UTT-xilinx/vitis_controller/UTT_USB_logic/_ide/bitstream/cpp_test.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:47.058
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:47.067
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:47.068
+!MESSAGE XSCT Command: [loadhw -hw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa -regs], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:47.070
+!MESSAGE XSCT command with result: [loadhw -hw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa -regs], Result: [null, mb_usb_hdmi_top_0]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:47.071
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:47.072
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:47.072
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:47.079
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:47.080
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:47.081
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:47.082
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:50.087
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:50.087
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:50.096
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:50.097
+!MESSAGE XSCT Command: [dow F:/UTT-xilinx/vitis_controller/UTT_USB_logic/Debug/UTT_USB_logic.elf], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:50.531
+!MESSAGE XSCT command with result: [dow F:/UTT-xilinx/vitis_controller/UTT_USB_logic/Debug/UTT_USB_logic.elf], Result: [null, ]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:50.605
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:50.619
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:50.619
+!MESSAGE XSCT Command: [con], Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 11:55:50.624
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-40: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 11:55:50.624
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:09.837
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Thread: Worker-48: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:09.839
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-48: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:09.839
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-48: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:09.840
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-48: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 12:06:09.840
+!MESSAGE Generating MD5 hash for file: F:\UTT-xilinx\vitis_controller\cpp_test\export\cpp_test\sw\cpp_test\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:09.840
+!MESSAGE XSCT Command: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Thread: Worker-48: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:09.841
+!MESSAGE XSCT command with result: [::hsi::utils::closesw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/sw/cpp_test/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-48: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 12:06:10.639
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '5'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:23.703
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-740
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:23.721
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-740
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.730
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.733
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#5]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.733
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.737
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.738
+!MESSAGE XSCT Command: [version -server], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.738
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.738
+!MESSAGE XSCT Command: [version], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.739
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.739
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.741
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.742
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.760
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.760
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.763
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.763
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.770
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.770
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.773
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.773
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.780
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.780
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.782
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.783
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.789
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.790
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.792
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.792
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.799
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.799
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "RealDigital Boo 887100000020A" && level == 0}], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.808
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "RealDigital Boo 887100000020A" && level == 0}], Result: [null, ]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.809
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.809
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.828
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.832
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* RealDigital Boo 887100000020A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.832
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.839
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==1}], Result: [null,      2  xc7s50 (idcode 0362f093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.839
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.865
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887100000020A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:24.866
+!MESSAGE XSCT Command: [fpga -file F:/UTT-xilinx/vitis_controller/UTT_USB_logic/_ide/bitstream/cpp_test.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:26.125
+!MESSAGE XSCT command with result: [fpga -file F:/UTT-xilinx/vitis_controller/UTT_USB_logic/_ide/bitstream/cpp_test.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:26.145
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:26.153
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:26.154
+!MESSAGE XSCT Command: [loadhw -hw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa -regs], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:26.157
+!MESSAGE XSCT command with result: [loadhw -hw F:/UTT-xilinx/vitis_controller/cpp_test/export/cpp_test/hw/cpp_test.xsa -regs], Result: [null, mb_usb_hdmi_top_0]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:26.158
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:26.158
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:26.159
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:26.166
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:26.167
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:26.169
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:26.169
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:29.177
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:29.178
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:29.186
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:29.186
+!MESSAGE XSCT Command: [dow F:/UTT-xilinx/vitis_controller/UTT_USB_logic/Debug/UTT_USB_logic.elf], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:29.614
+!MESSAGE XSCT command with result: [dow F:/UTT-xilinx/vitis_controller/UTT_USB_logic/Debug/UTT_USB_logic.elf], Result: [null, ]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:29.675
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:29.689
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:29.689
+!MESSAGE XSCT Command: [con], Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-15 12:06:29.694
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-49: Launching Debugger_UTT_USB_logic-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-11-15 12:06:29.694
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '4'
+
+!ENTRY org.eclipse.tcf 4 0 2025-11-16 09:21:18.047
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
