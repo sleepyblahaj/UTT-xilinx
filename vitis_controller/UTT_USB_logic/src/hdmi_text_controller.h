@@ -6,6 +6,7 @@
 #include "xil_types.h"
 #include "xstatus.h"
 #include "xparameters.h"
+#include "xil_printf.h"
 
 #define COLUMNS 9
 #define ROWS 9
