@@ -13311,3 +13311,9 @@ ERROR: [Hsi 55-1440] Error(s) while running DRCs.
 
 !ENTRY com.xilinx.sdk.utils 0 0 2025-11-16 10:23:11.692
 !MESSAGE XSCT command with result: [bsp reload], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-16 15:42:02.609
+!MESSAGE XSCT Command: [disconnect tcfchan#5], Thread: Thread-930
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-11-16 15:42:02.613
+!MESSAGE XSCT command with result: [disconnect tcfchan#5], Result: [null, ]. Thread: Thread-930

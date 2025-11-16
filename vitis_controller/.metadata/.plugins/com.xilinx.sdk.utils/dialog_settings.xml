@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<item key="scw_hwspec" value="F:\UTT-xilinx\final\cpp_code_test"/>
+	<item key="scw_hwspec_file_selection" value="F:\UTT-xilinx"/>
 </section>
