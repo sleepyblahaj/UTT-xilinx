@@ -1,0 +1,37 @@
+16:48:27 **** Incremental Build of configuration Debug for project game_controller ****
+make all 
+'Building file: ../src/hdmi_text_controller.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hdmi_text_controller.o" -IF:/UTT-xilinx/vitis_controller/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/hdmi_text_controller.d" -MT"src/hdmi_text_controller.o" -o "src/hdmi_text_controller.o" "../src/hdmi_text_controller.c"
+In file included from F:/UTT-xilinx/vitis_controller/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include/xil_printf.h:16,
+                 from ../src/hdmi_text_controller.c:2:
+F:/UTT-xilinx/vitis_controller/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include/xparameters.h:574:50: warning: initialization of 'volatile struct HDMI_TEXT_STRUCT *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  574 | #define XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR 0x44A00000
+      |                                                  ^~~~~~~~~~
+../src/hdmi_text_controller.h:87:54: note: in expansion of macro 'XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR'
+   87 | static volatile struct HDMI_TEXT_STRUCT* hdmi_ctrl = XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR;
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/hdmi_text_controller.c: In function 'board_checker':
+../src/hdmi_text_controller.c:13:13: warning: unused variable 'line' [-Wunused-variable]
+   13 |     uint8_t line;
+      |             ^~~~
+../src/hdmi_text_controller.c: In function 'run_game':
+../src/hdmi_text_controller.c:201:5: warning: 'big_status' is used uninitialized [-Wuninitialized]
+  201 |     data_storer(total_board, big_board, active_cell, active_board, new_board_flag, big_status);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/hdmi_text_controller.c'
+' '
+'Building target: game_controller.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LF:/UTT-xilinx/vitis_controller/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "game_controller.elf"  ./src/hdmi_text_controller.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: game_controller.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size game_controller.elf  |tee "game_controller.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 106248	   1728	   3168	 111144	  1b228	game_controller.elf
+'Finished building: game_controller.elf.size'
+' '
+
+16:48:28 Build Finished (took 494ms)
+

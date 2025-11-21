@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/UTT-xilinx/ip_repo/hdmi_text_controller_1_0/src/VGA_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/UTT-xilinx/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_text_controller_v1_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/UTT-xilinx/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_text_controller_v1_0_AXI
+WARNING: [VRFC 10-3380] identifier 'frame_counter' is used before its declaration [F:/UTT-xilinx/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:378]
+WARNING: [VRFC 10-3380] identifier 'spriteY' is used before its declaration [F:/UTT-xilinx/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:436]
+WARNING: [VRFC 10-3380] identifier 'subY' is used before its declaration [F:/UTT-xilinx/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_AXI.sv:437]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/UTT-xilinx/ip_repo/hdmi_text_controller_1_0/src/o_rom.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module o_rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/UTT-xilinx/ip_repo/hdmi_text_controller_1_0/src/x_rom.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module x_rom
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "F:/UTT-xilinx/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hdmi_text_controller_tb

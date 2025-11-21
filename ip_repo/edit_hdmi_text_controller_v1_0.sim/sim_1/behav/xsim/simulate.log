@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Saving bitmap 'lab7_1_sim.bmp'.
+$finish called at time : 15648350 ns : File "F:/UTT-xilinx/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_tb.sv" Line 332
+INFO: xsimkernel Simulation Memory Usage: 98116 KB (Peak: 98116 KB), Simulation CPU Usage: 250218 ms

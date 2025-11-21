@@ -4,7 +4,7 @@
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
-			<item value="F:\ECE385-group-work\final\cpp_code_test\cpp_vitis\i_o_test\src"/>
+			<item value="F:\UTT-xilinx\ip_repo\hdmi_text_controller_1_0\drivers\hdmi_text_controller_v1_0\src"/>
 		</list>
 	</section>
 </section>
