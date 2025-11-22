@@ -1,0 +1,47 @@
+int evaluate_game(big_board[3][3][3][3], active_board){
+    float evale = 0;
+    float main_board[9];
+    float evaluatorMul[9] = [1.4, 1, 1.4, 1, 1.75, 1, 1.4, 1, 1.4];
+
+    for(int i = 0; i < 9, i++){
+
+    }
+}
+
+
+float evaluate_subboard(small_board[3][3]){
+    float evale = 0;
+    float evaluatorMul[9] = [0.2, 0.17, 0.2, 0.17, 0.22, 0.17, 0.2, 0.17, 0.2];
+    float a;
+    for(int i = 0; i<9; i++){
+        evale -= small_board[i/3][i%3] * evaluatorMul[i];
+    }
+
+    a = 2;
+    if()
+}
+
+void board_conversion(uint8_t big_board[3][3][3][3], int8_t signed_board[3][3][3][3]){
+
+    
+    for(int i = 0; i<3; i++){
+        for(int j = 0; j<3; j++){
+            for(int k = 0; k<3; k++){
+                for(int l = 0; l<3; l++){
+                    if(big_board[i][j][k][l] == 2){
+                        signed_board[i][j][k][l] = 1;   
+                    }
+                    else if (big_board[i][j][k][l] == 3){
+                        signed_board[i][j][k][l] = -1;
+                    }
+                    else{
+                        signed_board[i][j][k][l] = 0;
+                    }
+                }
+            }   
+        }    
+    }
+    return;
+}
+
+
